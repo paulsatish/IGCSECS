@@ -5,7 +5,7 @@ TempMidnight=[]
 MiddayAvg=0
 MidnightAvg=0
 MiddayTotal=0
-MidNightTotal=0
+MidNightTotal=0    
 for i in range(1,3):
     temp1=float(input("Please enter the Temperature for MidDay"))
     TempMidday.append(temp1)
