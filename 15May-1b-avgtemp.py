@@ -11,7 +11,7 @@ for i in range(1,3):
     TempMidday.append(temp1)
     MiddayTotal=MiddayTotal+temp1
 
-    temp2=float(input("Please enter the Temperature for MidNight"))
+    temp2=float(input("Please enter the Temperature for MidNight:"))
     TempMidnight.append(temp2)
     MidNightTotal=MidNightTotal+temp2
 
