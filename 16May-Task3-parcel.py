@@ -1,4 +1,4 @@
-#1
+
 TotalNotAccepted=0
 TotalAccepted=0
 TotalWeight=0
