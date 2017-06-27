@@ -2,7 +2,9 @@
 TotalNotAccepted=0
 TotalAccepted=0
 TotalWeight=0
-
+totalprice=0
+sumTotal=0
+weightingrams=0
 price=0
 maxpay=0
 continue1="yes"
@@ -32,13 +34,15 @@ while continue1=="yes":
         maxweight=weight-5
         maxweightInGrams=maxweight*1000
         maxpay=1000+(maxweightInGrams*0.10)
-        weightingrams=maxpay/100
-        print("Please pay $" +str(weightingrams))
+        totalPrice=maxpay/100
+        print("Please pay $" +str(totalPrice))
+        sumTotal=sumTotal+totalPrice
         TotalWeight=TotalWeight+weight
         TotalAccepted=TotalAccepted+1
     print("Total number of parcels accepted are :" + str(TotalAccepted))
     print("Total number of parcels not accepted are :" + str(TotalNotAccepted))  
     print("Total weight of all the accepted parcels is:" +str(TotalWeight))
+    print("Total price of all the accepted parcels is:" +str(sumTotal)) 
     continue1=input("Do you want to continue?")
              
 
